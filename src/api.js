@@ -3,10 +3,10 @@ import axios from 'axios';
 
 // --- KONFIGURASI ---
 // 1. Ini URL Backend Laravel kamu
-const API_BASE_URL = 'http://localhost:8000/api'; 
+const API_BASE_URL = 'https://coretta-unfocusing-jonathan.ngrok-free.dev'; 
 
 // 2. Ini URL dasar untuk gambar (tanpa /api)
-export const IMAGE_BASE_URL = 'http://localhost:8000';
+export const IMAGE_BASE_URL = 'https://coretta-unfocusing-jonathan.ngrok-free.dev';
 
 // Membuat instance Axios
 const api = axios.create({
